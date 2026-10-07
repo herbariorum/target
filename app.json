@@ -2,6 +2,21 @@
   "expo": {
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scheme": "target",
+    "android": {
+      "package": "com.anjogreen.target",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      },
+      "predictiveBackGestureEnabled": false
+         
+    },
+    "ios": {
+      "bundleIdentifier": "com.anjogreen.target",
+      "supportsTablet": true,
+      "icon": "./assets/ios-icon.png"
+    }
   }
 }
